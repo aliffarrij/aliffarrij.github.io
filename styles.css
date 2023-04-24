@@ -874,11 +874,14 @@ section {
   }
 }
 @media screen and (max-width: 680px) {
-  .main-btn {
-    scale: 0.7;
-    justify-content: left;
+  .btn-con {
+    position: relative;
+    transform: translateX(-1.8rem);
   }
-  .main-btn .btn-text {
+  .btn-con .main-btn {
+    scale: 0.7;
+  }
+  .btn-con .main-btn .btn-text {
     padding: 0.2rem 0.5rem;
   }
   .about-container {
